@@ -1,0 +1,90 @@
+{
+    "name": "CubeInputs",
+    "maps": [
+        {
+            "name": "cube",
+            "id": "0543751f-62f6-4e44-908a-7a444c5ff328",
+            "actions": [
+                {
+                    "name": "Grow",
+                    "type": "Button",
+                    "id": "2e45017b-7001-4875-9a4d-7ba2ea14bc6c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "c970eeb3-4841-4a00-9cfe-de4478295739",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "b44a2748-e003-4be3-870f-f94f98506a3f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "shrink",
+                    "type": "Button",
+                    "id": "caf357da-4827-4b9d-91a2-eb19015aa141",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a5720e1b-ad19-4f9d-b477-6b73d068b087",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grow",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bdb886bb-e69d-420a-9c27-cb1160e56c77",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b24fa72a-fc60-4af6-acff-c5073efb788e",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6080ff9c-5063-4d33-b2fe-f0b414038ae1",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "shrink",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
